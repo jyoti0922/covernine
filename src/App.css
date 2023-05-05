@@ -144,9 +144,11 @@
 /*====================================== COLOR CLASS START =================================================== */
 .text_orange {
   color: var(--color-orange) !important;
-  color: var(--color-blue);
 }
 
+.text_blue {
+  color: var(--color-blue);
+}
 /*===================================== BACKGROUND-COLOR CLASS START =========================================== */
 .bg_light_orange {
   background-color: var(--bg-orange) !important;

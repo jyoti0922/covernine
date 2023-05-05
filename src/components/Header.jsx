@@ -9,10 +9,10 @@ const Header = () => {
   }
   return (
     <>
-      <nav className="min-vh-100 bg_hero">
-        <div className="container custom_container">
-          <div className="d-flex align-items-center justify-content-between">
-            <h1 className="ff_Borsok font-normal font_lg text_orange">
+      <nav>
+        <div className="container custom_container pt-1">
+          <div className="d-flex align-items-center justify-content-between py-3 nav_border_bottom">
+            <h1 className="ff_Borsok font-normal font_lg text_orange mb-0">
               cheer <span className="text_blue">friends</span>
             </h1>
             <div
@@ -23,16 +23,19 @@ const Header = () => {
               <div className="line_black"></div>
               <div className="line_black"></div>
             </div>
-            <ul className="d-flex align-items-center mb-0 d-none d-lg-flex  ps-0 mb-0 gap-2 gap-lg-4 gap-xl-5 gap_xxl_70">
+            <ul className="d-flex align-items-center mb-0 d-none d-lg-flex  ps-0 mb-0 gap-2 gap-xl-4">
               <li>
-                <a href="#home" className="ff_Borsok  nav_hover">
+                <a
+                  href="#home"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover"
+                >
                   About
                 </a>
               </li>
               <li>
                 <a
                   href="#track"
-                  className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover"
                 >
                   roadmap
                 </a>
@@ -40,7 +43,7 @@ const Header = () => {
               <li>
                 <a
                   href="#shipping"
-                  className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover"
                 >
                   rarity
                 </a>
@@ -48,7 +51,7 @@ const Header = () => {
               <li>
                 <a
                   href="#location"
-                  className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover"
                 >
                   team
                 </a>
@@ -56,7 +59,7 @@ const Header = () => {
               <li>
                 <a
                   href="#suport"
-                  className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover"
                 >
                   faq’s
                 </a>
@@ -64,7 +67,7 @@ const Header = () => {
               <li>
                 <a
                   href="#suport"
-                  className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover"
                 >
                   Shop
                 </a>
@@ -72,7 +75,7 @@ const Header = () => {
               <li>
                 <a
                   href="#suport"
-                  className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover"
                 >
                   whitepaper
                 </a>
@@ -82,7 +85,7 @@ const Header = () => {
               <li>
                 <a
                   href="#"
-                  className="ff_red_text fw_regular fs_3 text-white bg_1 br_green button_styling"
+                  className="ff_Borsok font-normal font_sm text-white nav_btn_styling"
                 >
                   Connect wallet
                 </a>
@@ -98,58 +101,66 @@ const Header = () => {
                 ></button>
                 <li>
                   <a
-                    href="#"
-                    className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                    href="#home"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover"
                   >
                     About
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
-                    className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                    href="#track"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover"
                   >
                     roadmap
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
-                    className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                    href="#shipping"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover"
                   >
                     rarity
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
-                    className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                    href="#location"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover"
                   >
                     team
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
-                    className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                    href="#suport"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover"
                   >
-                    Support
+                    faq’s
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#suport"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover"
+                  >
+                    Shop
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#suport"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover"
+                  >
+                    whitepaper
                   </a>
                 </li>
                 <li>
                   <a
                     href="#"
-                    className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                    className="ff_Borsok font-normal font_sm text-white nav_btn_styling"
                   >
-                    Signin
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="ff_red_text fw_regular fs_3 text-white bg_1 br_green button_styling"
-                  >
-                    Register
+                    Connect wallet
                   </a>
                 </li>
               </ul>
