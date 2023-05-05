@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <section className="about_section"></section>
+      <section className=" min-vh-100 "></section>
     </>
   );
 };
