@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap");
+
+.ff_josefin {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@font-face {
+  font-family: Borsok;
+  src: url(./assets/font/Borsok\ 400.otf);
+}
+
+.ff_Borsok {
+  font-family: Borsok;
+}
+
 :root {
   /*================================== FONT-SIZES ================================================ */
   --font-xs: 16px;
