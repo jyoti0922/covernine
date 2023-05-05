@@ -13,6 +13,11 @@
   font-family: Borsok;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 :root {
   /*================================== FONT-SIZES ================================================ */
   --font-xs: 16px;
@@ -167,4 +172,26 @@
 
 body {
   background-color: var(--bg-orange) !important;
+}
+
+.about_position_paint {
+  right: 0;
+  bottom: -300px;
+  z-index: 1;
+}
+.custom_mission_topspace {
+  padding-top: 272px;
+}
+.mission_custom_para_class {
+  max-width: 462px;
+  line-height: 150%;
+}
+.custom_start_padding {
+  padding-left: 52px !important;
+}
+
+@media (min-width: 1400px) {
+  .custom_container {
+    max-width: 1146px;
+  }
 }
