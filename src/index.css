@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* My-Css-Start  */
+/* =============ONLY HEADER SECTION CSS=============== */
+* {
+  padding: 0%;
+  margin: 0%;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+.btn-success {
+  --bs-btn-bg: transparent !important;
+  --bs-btn-border-color: transparent !important;
+  color: #212832 !important;
+}
+.bg_hero {
+  /* background-image: url(../src//images/png/bg-hero.png) !important; */
+  background-repeat: no-repeat;
+}
+.white_space {
+  white-space: nowrap;
+}
+.nav-fix {
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  transition: all 400ms linear;
+  display: flex;
+  background: #000 !important;
+  align-items: center;
+  justify-content: center;
+  opacity: 100%;
+  z-index: 12 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fix-navbar {
+  min-height: 100vh;
+  position: absolute;
+  top: 10%;
+  position: fixed;
+  left: -100%;
+  transition: all 400ms linear;
+}
+.nav_bg {
+  background-color: #e3f9e7 !important;
+  /* z-index: 2; */
+}
+.line_black {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.btnss {
+  border: 3px solid black;
+  transition: all 400ms ease-in-out;
+}
+.br_green {
+  box-shadow: 0px 4px 0px rgba(60, 189, 150, 0.25);
+  border-radius: 10px;
+  padding: 11px 27px;
+  border: 2px solid #3cbd96;
+}
+.button_styling {
+  transition: all 300ms linear;
+}
+.button_styling:hover {
+  background-color: #ffffff !important;
+  border: 2px solid #3cbd96;
+  color: #3cbd96 !important;
+}
+.nav_hover {
+  transition: all 300ms linear;
+}
+.nav_hover:hover {
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 0.5px;
+  color: #000000 !important;
+}
+.top_20 {
+  top: 20px;
+  right: 20px;
+  z-index: 1;
 }
