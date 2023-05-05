@@ -12,22 +12,25 @@ const Header = () => {
       <nav>
         <div className="container custom_container pt-1">
           <div className="d-flex align-items-center justify-content-between py-3 nav_border_bottom">
-            <h1 className="ff_Borsok font-normal font_lg text_orange mb-0">
+            <a
+              href="#"
+              className="ff_Borsok font-normal font_lg text_orange mb-0 white_space"
+            >
               cheer <span className="text_blue">friends</span>
-            </h1>
+            </a>
             <div
               onClick={() => setNavShow(!navShow)}
-              className=" btnss text-danger px-2 py-1 d-lg-none rounded-3"
+              className=" menubtn text-danger px-2 py-1 d-lg-none rounded-3"
             >
-              <div className="line_black"></div>
-              <div className="line_black"></div>
-              <div className="line_black"></div>
+              <div className="line_orange"></div>
+              <div className="line_orange"></div>
+              <div className="line_orange"></div>
             </div>
-            <ul className="d-flex align-items-center mb-0 d-none d-lg-flex  ps-0 mb-0 gap-2 gap-xl-4">
+            <ul className="d-flex align-items-center mb-0 d-none d-lg-flex  ps-0 mb-0">
               <li>
                 <a
                   href="#home"
-                  className="ff_Borsok font-normal font_sm text-black nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover px-1 px-xl-2"
                 >
                   About
                 </a>
@@ -35,7 +38,7 @@ const Header = () => {
               <li>
                 <a
                   href="#track"
-                  className="ff_Borsok font-normal font_sm text-black nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover px-1 px-xl-2"
                 >
                   roadmap
                 </a>
@@ -43,7 +46,7 @@ const Header = () => {
               <li>
                 <a
                   href="#shipping"
-                  className="ff_Borsok font-normal font_sm text-black nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover px-1 px-xl-2"
                 >
                   rarity
                 </a>
@@ -51,7 +54,7 @@ const Header = () => {
               <li>
                 <a
                   href="#location"
-                  className="ff_Borsok font-normal font_sm text-black nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover px-1 px-xl-2"
                 >
                   team
                 </a>
@@ -59,7 +62,7 @@ const Header = () => {
               <li>
                 <a
                   href="#suport"
-                  className="ff_Borsok font-normal font_sm text-black nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover px-1 px-xl-2"
                 >
                   faq’s
                 </a>
@@ -67,7 +70,7 @@ const Header = () => {
               <li>
                 <a
                   href="#suport"
-                  className="ff_Borsok font-normal font_sm text-black nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover px-1 px-xl-2"
                 >
                   Shop
                 </a>
@@ -75,7 +78,7 @@ const Header = () => {
               <li>
                 <a
                   href="#suport"
-                  className="ff_Borsok font-normal font_sm text-black nav_hover"
+                  className="ff_Borsok font-normal font_sm text-black nav_hover px-1 px-xl-2"
                 >
                   whitepaper
                 </a>
@@ -102,7 +105,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#home"
-                    className="ff_Borsok font-normal font_sm text-black nav_hover"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover px-2"
                   >
                     About
                   </a>
@@ -110,7 +113,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#track"
-                    className="ff_Borsok font-normal font_sm text-black nav_hover"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover px-2"
                   >
                     roadmap
                   </a>
@@ -118,7 +121,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#shipping"
-                    className="ff_Borsok font-normal font_sm text-black nav_hover"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover px-2"
                   >
                     rarity
                   </a>
@@ -126,7 +129,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#location"
-                    className="ff_Borsok font-normal font_sm text-black nav_hover"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover px-2"
                   >
                     team
                   </a>
@@ -134,7 +137,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#suport"
-                    className="ff_Borsok font-normal font_sm text-black nav_hover"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover px-2"
                   >
                     faq’s
                   </a>
@@ -142,7 +145,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#suport"
-                    className="ff_Borsok font-normal font_sm text-black nav_hover"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover px-2"
                   >
                     Shop
                   </a>
@@ -150,7 +153,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#suport"
-                    className="ff_Borsok font-normal font_sm text-black nav_hover"
+                    className="ff_Borsok font-normal font_sm text-black nav_hover px-2"
                   >
                     whitepaper
                   </a>
