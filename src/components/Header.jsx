@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Header = () => {
   const [navShow, setNavShow] = useState(false);
@@ -12,7 +12,7 @@ const Header = () => {
       <nav className="my-5">
         <div className="container custom_container">
           <div className="d-flex align-items-center justify-content-between">
-            <img className="w_259 w-100 cursor_pointer" src={logo} alt="logo" />
+            {/* <img className="w_259 w-100 cursor_pointer" src={logo} alt="logo" /> */}
             <div
               onClick={() => setNavShow(!navShow)}
               className=" btnss text-danger px-2 py-1 d-lg-none rounded-3"
@@ -149,7 +149,7 @@ const Header = () => {
                     Register
                   </a>
                 </li>
-              </ul>{" "}
+              </ul>
             </div>
           </div>
         </div>
