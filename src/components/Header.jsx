@@ -13,7 +13,7 @@ const Header = () => {
         <div className="container custom_container">
           <div className="d-flex align-items-center justify-content-between">
             <h1 className="ff_Borsok font-normal font_lg text_orange">
-              cheer friends
+              cheer <span className="text_blue">friends</span>
             </h1>
             <div
               onClick={() => setNavShow(!navShow)}
@@ -25,10 +25,7 @@ const Header = () => {
             </div>
             <ul className="d-flex align-items-center mb-0 d-none d-lg-flex  ps-0 mb-0 gap-2 gap-lg-4 gap-xl-5 gap_xxl_70">
               <li>
-                <a
-                  href="#home"
-                  className="ff_Borsok  nav_hover"
-                >
+                <a href="#home" className="ff_Borsok  nav_hover">
                   About
                 </a>
               </li>
