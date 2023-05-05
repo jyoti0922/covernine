@@ -9,10 +9,12 @@ const Header = () => {
   }
   return (
     <>
-      <nav className="my-5">
+      <nav className="min-vh-100 bg_hero">
         <div className="container custom_container">
           <div className="d-flex align-items-center justify-content-between">
-            {/* <img className="w_259 w-100 cursor_pointer" src={logo} alt="logo" /> */}
+            <h1 className="ff_Borsok font-normal font_lg text_orange">
+              cheer friends
+            </h1>
             <div
               onClick={() => setNavShow(!navShow)}
               className=" btnss text-danger px-2 py-1 d-lg-none rounded-3"
@@ -25,9 +27,9 @@ const Header = () => {
               <li>
                 <a
                   href="#home"
-                  className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                  className="ff_Borsok  nav_hover"
                 >
-                  Home
+                  About
                 </a>
               </li>
               <li>
@@ -35,7 +37,7 @@ const Header = () => {
                   href="#track"
                   className="ff_red_text fw_regular fs_3 color_1 nav_hover"
                 >
-                  Tracking
+                  roadmap
                 </a>
               </li>
               <li>
@@ -43,7 +45,7 @@ const Header = () => {
                   href="#shipping"
                   className="ff_red_text fw_regular fs_3 color_1 nav_hover"
                 >
-                  Shipping
+                  rarity
                 </a>
               </li>
               <li>
@@ -51,7 +53,7 @@ const Header = () => {
                   href="#location"
                   className="ff_red_text fw_regular fs_3 color_1 nav_hover"
                 >
-                  Locations
+                  team
                 </a>
               </li>
               <li>
@@ -59,7 +61,23 @@ const Header = () => {
                   href="#suport"
                   className="ff_red_text fw_regular fs_3 color_1 nav_hover"
                 >
-                  Support
+                  faq’s
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#suport"
+                  className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                >
+                  Shop
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#suport"
+                  className="ff_red_text fw_regular fs_3 color_1 nav_hover"
+                >
+                  whitepaper
                 </a>
               </li>
             </ul>
@@ -67,25 +85,13 @@ const Header = () => {
               <li>
                 <a
                   href="#"
-                  className="ff_red_text fw_regular fs_3 color_1 nav_hover"
-                >
-                  Signin
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
                   className="ff_red_text fw_regular fs_3 text-white bg_1 br_green button_styling"
                 >
-                  Register
+                  Connect wallet
                 </a>
               </li>
             </ul>
           </div>
-          <article className="w-100 d-flex justify-content-between ">
-            {" "}
-            <span> </span>
-          </article>{" "}
           <div className="d-lg-none d-flex ">
             <div className={` ${navShow ? "nav-fix nav_bg" : "fix-navbar"}`}>
               <ul class="ps-0 mb-0 d-flex flex-column py-5 align-items-center  list-unstyled gap-4">
@@ -98,7 +104,7 @@ const Header = () => {
                     href="#"
                     className="ff_red_text fw_regular fs_3 color_1 nav_hover"
                   >
-                    Home
+                    About
                   </a>
                 </li>
                 <li>
@@ -106,7 +112,7 @@ const Header = () => {
                     href="#"
                     className="ff_red_text fw_regular fs_3 color_1 nav_hover"
                   >
-                    Tracking
+                    roadmap
                   </a>
                 </li>
                 <li>
@@ -114,7 +120,7 @@ const Header = () => {
                     href="#"
                     className="ff_red_text fw_regular fs_3 color_1 nav_hover"
                   >
-                    Shipping
+                    rarity
                   </a>
                 </li>
                 <li>
@@ -122,7 +128,7 @@ const Header = () => {
                     href="#"
                     className="ff_red_text fw_regular fs_3 color_1 nav_hover"
                   >
-                    Locations
+                    team
                   </a>
                 </li>
                 <li>

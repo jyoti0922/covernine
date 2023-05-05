@@ -13,8 +13,9 @@
   color: #212832 !important;
 }
 .bg_hero {
-  /* background-image: url(../src//images/png/bg-hero.png) !important; */
+  background-image: url(../src/assets/images/png/hero-bg.png) !important;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .white_space {
   white-space: nowrap;
