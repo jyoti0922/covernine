@@ -97,7 +97,7 @@ const Header = () => {
           </div>
           <div className="d-lg-none d-flex ">
             <div className={` ${navShow ? "nav-fix nav_bg" : "fix-navbar"}`}>
-              <ul class="ps-0 mb-0 d-flex flex-column py-5 align-items-center  list-unstyled gap-4">
+              <ul className="ps-0 mb-0 d-flex flex-column py-5 align-items-center  list-unstyled gap-4">
                 <button
                   onClick={() => setNavShow(false)}
                   className=" btn btn-close  d-lg-none color_lwhite position-absolute top_20 w_50"

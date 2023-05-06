@@ -121,7 +121,34 @@
   top: 120px;
   z-index: 2;
 }
+.z_index_3 {
+  z-index: 3;
+}
+/*  =============== WHAT ARE CHEERFRIEND CSS ============== */
+.bg_white {
+  background-color: #ffffff;
+  border: 4px solid #000000;
+  border-radius: 20px;
+  padding: 64px 90px 49px 90px;
+}
+.cheerfriengd_bg {
+  background-image: url(../src/assets/images/svg/text-cheerfriend-bg.svg);
+  background-size: cover;
+  width: 557px;
+  height: 98px;
+}
+.cheerfriend_position {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
 /* ============= MEDIA QUERY ONLY */
+@media (max-width: 1300px) {
+  .leftposition {
+    max-width: 300px !important;
+  }
+}
 @media (min-width: 1400px) {
   .custom_container {
     max-width: 1140px !important;

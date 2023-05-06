@@ -35,7 +35,7 @@ const Hero = () => {
           alt="girlright"
         />
         <div className="container custom_container">
-          <div className="d-flex flex-column align-items-center">
+          <div className="d-flex flex-column align-items-center position-relative z_index_3">
             <p className="ff_josefin font-semibold font_xl text-black welcome_textbg d-flex align-items-center justify-content-end pe-3 text-center mb-0">
               WELCOME TO
             </p>
