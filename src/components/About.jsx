@@ -5,9 +5,9 @@ import position_image from "../assets/images/svg/position_color.svg";
 const About = () => {
   return (
     <>
-      <section className=" min-vh-100 position-relative">
+      <section className=" min_vh_100 position-relative">
         <img
-          className="position-absolute about_position_paint"
+          className="position-absolute about_position_paint d-md-block d-none"
           src={position_image}
           alt="position_image"
         />

@@ -59,14 +59,14 @@
 @media (max-width: 991.98px) {
   :root {
     --font-xs: 16px;
-    --font-sm: 18px;
+    --font-sm: 15px;
     --font-2sm: 20px;
     --font-md: 24px;
     --font-lg: 27px;
     --font-xl: 29px;
     --font-2xl: 32px;
     --font-3xl: 35px;
-    --font-4xl: 60px;
+    --font-4xl: 40px;
     --font-5xl: 62px;
     --font-6xl: 150px;
   }
@@ -75,14 +75,14 @@
 @media (max-width: 767.98px) {
   :root {
     --font-xs: 16px;
-    --font-sm: 18px;
+    --font-sm: 14px;
     --font-2sm: 20px;
     --font-md: 24px;
     --font-lg: 27px;
     --font-xl: 29px;
     --font-2xl: 32px;
     --font-3xl: 35px;
-    --font-4xl: 60px;
+    --font-4xl: 40px;
     --font-5xl: 62px;
     --font-6xl: 150px;
   }
@@ -91,14 +91,12 @@
 @media (max-width: 575.98px) {
   :root {
     --font-xs: 16px;
-    --font-sm: 18px;
     --font-2sm: 20px;
     --font-md: 24px;
     --font-lg: 27px;
     --font-xl: 29px;
     --font-2xl: 32px;
     --font-3xl: 35px;
-    --font-4xl: 60px;
     --font-5xl: 62px;
     --font-6xl: 150px;
   }
@@ -179,19 +177,130 @@ body {
   bottom: -300px;
   z-index: 1;
 }
-.custom_mission_topspace {
-  padding-top: 272px;
-}
+
 .mission_custom_para_class {
   max-width: 462px;
   line-height: 150%;
 }
-.custom_start_padding {
-  padding-left: 52px !important;
+
+.text_background_image {
+  left: 27%;
+  top: 5px;
+  z-index: -1;
+  width: 75%;
+}
+.text_background_image {
+  background-image: url(./assets/images/svg/text_image.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position: 0;
+}
+.faq_text_background_image {
+  background-image: url(./assets/images/svg/faq_text_bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* -----------------faq------------- */
+.faq_paddint_top {
+  padding-top: 91px;
+  padding-bottom: 139px;
+}
+.faq_text_bottom_padding {
+  padding-bottom: 74px;
+}
+.acc_border {
+  border: 1px solid #1e8cd6 !important;
+  border-radius: 8px;
+  background-color: transparent !important;
+}
+.faq_custom_width {
+  max-width: 793px;
+}
+.accordian {
+  background-color: transparent !important;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.accordion-item {
+  padding: 16px 24px;
+  border: 2px solid #000000 !important;
+  border-radius: 8px;
+}
+.accordion-item:first-of-type {
+  padding: 16px 24px;
+}
+.accordion-item:first-of-type .accordion-button {
+  padding: 0;
+}
+.accordion-body {
+  padding: 0 !important;
+}
+.acc_body {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 12px;
+}
+.accordion-button::after {
+  background-image: url(../src//assets/images/svg/pulsh_img.svg) !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../src/assets/images/svg/faq_img.svg) !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion {
+  --bs-accordion-color: #212529;
+  --bs-accordion-bg: transparent !important;
+}
+.accordion-button {
+  padding: 0 !important;
+}
+.faq_spacing {
+  margin-top: 15px;
+}
+.z_index_-1 {
+  z-index: -1;
+}
+/* ---------------- */
+
+@media (max-width: 576px) {
+  .custom_mission_topspace {
+    padding-top: 48px;
+  }
+}
+@media (min-width: 768px) {
+  .custom_start_padding {
+    padding-left: 52px !important;
+  }
+  .custom_mission_topspace {
+    padding-top: 72px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .min_vh_100 {
+    min-height: 100vh;
+  }
+  .custom_mission_topspace {
+    padding-top: 272px;
+  }
 }
 
 @media (min-width: 1400px) {
   .custom_container {
     max-width: 1146px;
+  }
+}
+@media (max-width: 1024px) {
+  .min_vh_100 {
+    min-height: 230px !important;
   }
 }
