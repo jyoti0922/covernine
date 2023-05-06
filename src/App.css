@@ -161,6 +161,9 @@
 .opacity_09 {
   opacity: 0.9 !important;
 }
+.opacity_08 {
+  opacity: 0.8 !important;
+}
 
 .opacity_07 {
   opacity: 0.7 !important;
@@ -196,11 +199,12 @@ body {
   background-position-x: center;
   background-position: 0;
 }
-.faq_text_background_image {
-  background-image: url(./assets/images/svg/faq_text_bg.svg);
-  background-size: contain;
+.faq_textbg {
+  background-image: url(../src/assets/images/svg/faq_text_bg.svg) !important;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  width: 272px;
+  height: 74px;
 }
 /* -----------------faq------------- */
 .faq_paddint_top {
@@ -208,7 +212,7 @@ body {
   padding-bottom: 139px;
 }
 .faq_text_bottom_padding {
-  padding-bottom: 74px;
+  margin-bottom: 74px;
 }
 .acc_border {
   border: 1px solid #1e8cd6 !important;
@@ -269,11 +273,72 @@ body {
 .z_index_-1 {
   z-index: -1;
 }
-/* ---------------- */
+/* ---------------- footer---------------- */
+.footer_background_image {
+  background-image: url(./assets/images/svg/footer_bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer_custom_padding {
+  padding-top: 145px;
+}
+.footer_icon_top_spacing {
+  margin-top: 37px;
+}
+.footer_border {
+  opacity: 0.5;
+  border: 1px solid #ffffff;
+  margin-top: 60px;
+}
+/* -------------------team----------- */
+.team_background_image {
+  background-image: url(../src//assets/images/png/team_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  position: relative;
+  z-index: -5 !important;
+}
+.team_custom_paddingY {
+  padding-top: 153px;
+  padding-bottom: 128px;
+}
+.transform_rotate_team_image1 {
+  transform: rotate(5.95deg);
+}
+.transform_rotate_team_image2 {
+  transform: rotate(-5.44deg);
+}
+.transform_rotate_team_image3 {
+  transform: rotate(5.91deg);
+}
+.transform_rotate_team_image4 {
+  transform: rotate(-5.44deg);
+}
+.transform_rotate_team_image5 {
+  transform: rotate(5.91deg);
+}
+.transform_rotate_team_image6 {
+  transform: rotate(-6.14deg);
+}
+.z_index1 {
+  z-index: 1 !important;
+}
+.z_index2 {
+  z-index: 2 !important;
+}
+/* ------------------ */
 
 @media (max-width: 576px) {
   .custom_mission_topspace {
     padding-top: 48px;
+  }
+  .faq_paddint_top {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+  .faq_text_bottom_padding {
+    margin-bottom: 30px !important;
   }
 }
 @media (min-width: 768px) {
@@ -292,15 +357,32 @@ body {
   .custom_mission_topspace {
     padding-top: 272px;
   }
+  .faq_paddint_top {
+    padding-top: 91px;
+    padding-bottom: 139px;
+  }
 }
 
 @media (min-width: 1400px) {
   .custom_container {
-    max-width: 1146px;
+    max-width: 1146px !important;
+  }
+  .custom_footer_container {
+    max-width: 1140px !important;
   }
 }
 @media (max-width: 1024px) {
   .min_vh_100 {
     min-height: 230px !important;
+  }
+  .faq_paddint_top {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  .faq_text_bottom_padding {
+    margin-bottom: 48px;
+  }
+  .footer_icon_top_spacing {
+    margin-top: 27px;
   }
 }

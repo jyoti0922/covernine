@@ -5,14 +5,14 @@ import faq_bg_img from "../assets/images/svg/faq_bg_img.svg";
 const FAQ = () => {
   return (
     <>
-      <section className=" faq_paddint_top position-relative">
+      <section className=" faq_paddint_top position-relative ">
         <img
           className=" position-absolute end-0 bottom-0 z_index_-1"
           src={faq_bg_img}
           alt="faq_bg_img"
         />
-        <div className="container">
-          <h2 className="text-center font_3xl fw-normal ff_Borsok faq_text_bottom_padding faq_text_background_image">
+        <div className="container ">
+          <h2 className="text-center font_3xl fw-normal ff_Borsok faq_text_bottom_padding pt-2 faq_textbg mx-auto">
             FAQ’s
           </h2>
           <Accordion className="faq_custom_width mx-auto" defaultActiveKey="0">
